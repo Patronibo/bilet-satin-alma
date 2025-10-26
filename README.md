@@ -1,4 +1,4 @@
-# 🚍 Siber Otobüs - Online Otobüs Bileti Sistemi
+#  Siber Otobüs - Online Otobüs Bileti Sistemi
 
 Modern, güvenli ve kullanıcı dostu bir otobüs bileti satış ve yönetim sistemi.
 
@@ -7,7 +7,7 @@ Modern, güvenli ve kullanıcı dostu bir otobüs bileti satış ve yönetim sis
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Security](https://img.shields.io/badge/security-high-brightgreen)
 
-## 📋 İçindekiler
+##  İçindekiler
 
 - [Özellikler](#-özellikler)
 - [Güvenlik](#-güvenlik)
@@ -22,48 +22,48 @@ Modern, güvenli ve kullanıcı dostu bir otobüs bileti satış ve yönetim sis
 
 ---
 
-## 🎯 Özellikler
+##  Özellikler
 
-### 👤 Kullanıcı Özellikleri
-- ✅ **Güvenli Giriş/Kayıt Sistemi** - 2FA (Two-Factor Authentication) desteği ile
-- 💳 **Çift Ödeme Yöntemi** - Sanal bakiye veya kredi kartı ile ödeme
-- 🎫 **Bilet Yönetimi** - Biletlerinizi görüntüleyin, indirin, iptal edin
-- 💺 **İnteraktif Koltuk Seçimi** - 2+1 otobüs yerleşimi ile koltuk seçimi
-- 👥 **Cinsiyet Bazlı Koltuk Gösterimi** - Erkek/kadın yolcular farklı renklerde
-- 📄 **PDF Bilet İndirme** - Profesyonel tasarımlı PDF biletler
-- 💰 **Sanal Bakiye Sistemi** - Kullanıcılar 800 TL başlangıç bakiyesi ile başlar
-- 🎟️ **Kupon Sistemi** - İndirim kuponları uygulama
+### Kullanıcı Özellikleri
+-  **Güvenli Giriş/Kayıt Sistemi** - 2FA (Two-Factor Authentication) desteği ile
+-  **Çift Ödeme Yöntemi** - Sanal bakiye veya kredi kartı ile ödeme
+-  **Bilet Yönetimi** - Biletlerinizi görüntüleyin, indirin, iptal edin
+-  **İnteraktif Koltuk Seçimi** - 2+1 otobüs yerleşimi ile koltuk seçimi
+-  **Cinsiyet Bazlı Koltuk Gösterimi** - Erkek/kadın yolcular farklı renklerde
+-  **PDF Bilet İndirme** - Profesyonel tasarımlı PDF biletler
+-  **Sanal Bakiye Sistemi** - Kullanıcılar 800 TL başlangıç bakiyesi ile başlar
+-  **Kupon Sistemi** - İndirim kuponları uygulama
 
-### 🏢 Firma Admin Özellikleri
-- 📊 **Firma Paneli** - Kendi seferlerinizi yönetin
-- ➕ **Sefer Ekleme** - Yeni seferler oluşturun
-- 🚌 **Yolcu Görüntüleme** - Her sefer için yolcu listesi ve koltuk haritası
-- ❌ **Bilet İptali** - Firma tarafından bilet iptali
-- 🎫 **Kupon Yönetimi** - İndirim kuponları oluşturun ve yönetin
+###  Firma Admin Özellikleri
+-  **Firma Paneli** - Kendi seferlerinizi yönetin
+-  **Sefer Ekleme** - Yeni seferler oluşturun
+-  **Yolcu Görüntüleme** - Her sefer için yolcu listesi ve koltuk haritası
+-  **Bilet İptali** - Firma tarafından bilet iptali
+-  **Kupon Yönetimi** - İndirim kuponları oluşturun ve yönetin
 
-### 🔐 Sistem Admin Özellikleri
-- 🏢 **Firma Yönetimi** - Otobüs firmalarını ekleyin, düzenleyin
-- 🔑 **Rotating Token Sistemi** - Ultra güvenli admin girişi
-- 🔒 **2FA Email Doğrulama** - Her admin girişinde email ile kod
-- 📝 **Firma Düzenleme** - Firma bilgilerini güncelleyin
+###  Sistem Admin Özellikleri
+-  **Firma Yönetimi** - Otobüs firmalarını ekleyin, düzenleyin
+-  **Rotating Token Sistemi** - Ultra güvenli admin girişi
+-  **2FA Email Doğrulama** - Her admin girişinde email ile kod
+-  **Firma Düzenleme** - Firma bilgilerini güncelleyin
 
 ---
 
-## 🔒 Güvenlik
+##  Güvenlik
 
 Bu proje endüstri standartlarında güvenlik önlemleri ile geliştirilmiştir:
 
 ### Güvenlik Katmanları
-1. ✅ **CSRF Koruması** - Tüm formlarda token doğrulama
-2. ✅ **XSS Koruması** - HTML encode, sanitization
-3. ✅ **SQL Injection Koruması** - PDO prepared statements
-4. ✅ **Session Güvenliği** - Secure, HttpOnly, SameSite cookies
-5. ✅ **Rate Limiting** - Brute force saldırılarına karşı
-6. ✅ **Password Hashing** - bcrypt algoritması ile
-7. ✅ **Email 2FA** - Two-Factor Authentication
-8. ✅ **Input Validation** - Server-side validasyon
-9. ✅ **JavaScript Obfuscation** - Kod gizleme ve koruma
-10. ✅ **Security Headers** - X-Frame-Options, CSP, etc.
+1.  **CSRF Koruması** - Tüm formlarda token doğrulama
+2.  **XSS Koruması** - HTML encode, sanitization
+3.  **SQL Injection Koruması** - PDO prepared statements
+4.  **Session Güvenliği** - Secure, HttpOnly, SameSite cookies
+5.  **Rate Limiting** - Brute force saldırılarına karşı
+6.  **Password Hashing** - bcrypt algoritması ile
+7.  **Email 2FA** - Two-Factor Authentication
+8.  **Input Validation** - Server-side validasyon
+9.  **JavaScript Obfuscation** - Kod gizleme ve koruma
+10.  **Security Headers** - X-Frame-Options, CSP, etc.
 
 ### Güvenlik Başlıkları
 ```php
@@ -76,7 +76,7 @@ Referrer-Policy: strict-origin-when-cross-origin
 
 ---
 
-## 📦 Kurulum
+##  Kurulum
 
 ### Docker ile Kurulum (Önerilen)
 
@@ -134,7 +134,7 @@ chmod 666 logs/*.log
 
 ---
 
-## 🚀 Kullanım
+##  Kullanım
 
 ### Varsayılan Giriş Bilgileri
 
@@ -168,7 +168,7 @@ Kayıt sayfasından yeni kullanıcı oluşturabilirsiniz: `/src/register.php`
 
 ---
 
-## 💻 Sistem Gereksinimleri
+##  Sistem Gereksinimleri
 
 ### Minimum Gereksinimler
 - **PHP:** 8.0 veya üzeri
@@ -194,7 +194,7 @@ Kayıt sayfasından yeni kullanıcı oluşturabilirsiniz: `/src/register.php`
 
 ---
 
-## 🗄️ Veritabanı Yapısı
+##  Veritabanı Yapısı
 
 ### Tablolar
 
@@ -263,7 +263,7 @@ Rezerve koltuklar
 
 ---
 
-## 📡 API Dokümantasyonu
+##  API Dokümantasyonu
 
 ### Occupied Seats API
 **Endpoint:** `/src/occupied_seats.php`  
@@ -397,7 +397,7 @@ chmod 400 includes/email.php
 
 ---
 
-## 🏗️ Proje Yapısı
+##  Proje Yapısı
 
 ```
 siber-otobus/
@@ -450,7 +450,7 @@ siber-otobus/
 
 ---
 
-## 🎨 Teknolojiler
+##  Teknolojiler
 
 ### Backend
 - **PHP 8.0+** - Server-side programming
@@ -479,7 +479,7 @@ siber-otobus/
 
 ---
 
-## 🤝 Katkıda Bulunma
+##  Katkıda Bulunma
 
 Katkılarınızı bekliyoruz! Lütfen şu adımları takip edin:
 
@@ -498,19 +498,19 @@ Katkılarınızı bekliyoruz! Lütfen şu adımları takip edin:
 
 ---
 
-## 📝 Lisans
+##  Lisans
 
 Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakın.
 
 ---
 
-## 📞 İletişim
+##  İletişim
 
 Proje Linki: [https://github.com/Patronibo/bilet-satin-alma](https://github.com/Patronibo/bilet-satin-alma)
 
 ---
 
-## 🙏 Teşekkürler
+## Teşekkürler
 
 - [FPDF](http://www.fpdf.org/) - PDF generation library
 - [Font Awesome](https://fontawesome.com/) - Icons
@@ -518,34 +518,34 @@ Proje Linki: [https://github.com/Patronibo/bilet-satin-alma](https://github.com/
 
 ---
 
-## 📊 Sistem Durumu
+##  Sistem Durumu
 
-- ✅ **Güvenlik:** Production-ready
-- ✅ **Stability:** Stable
-- ✅ **Performance:** Optimized
-- ✅ **Documentation:** Complete
-- ✅ **Testing:** Manual tested
+-  **Güvenlik:** Production-ready
+-  **Stability:** Stable
+-  **Performance:** Optimized
+-  **Documentation:** Complete
+-  **Testing:** Manual tested
 
 ---
 
-## 🔄 Versiyon Geçmişi
+##  Versiyon Geçmişi
 
 ### v1.0.0 (2025-10-23)
-- ✅ İlk stabil sürüm
-- ✅ Kullanıcı kayıt/giriş sistemi
-- ✅ 2FA email doğrulama
-- ✅ Çift ödeme yöntemi (bakiye + kredi kartı)
-- ✅ İnteraktif koltuk seçimi
-- ✅ PDF bilet indirme
-- ✅ Firma admin paneli
-- ✅ Sistem admin paneli
-- ✅ Kupon sistemi
-- ✅ Güvenlik katmanları (CSRF, XSS, SQL Injection)
-- ✅ JavaScript obfuscation
-- ✅ Responsive design
-- ✅ Docker support
+-  İlk stabil sürüm
+-  Kullanıcı kayıt/giriş sistemi
+-  2FA email doğrulama
+-  Çift ödeme yöntemi (bakiye + kredi kartı)
+-  İnteraktif koltuk seçimi
+-  PDF bilet indirme
+-  Firma admin paneli
+-  Sistem admin paneli
+-  Kupon sistemi
+-  Güvenlik katmanları (CSRF, XSS, SQL Injection)
+-  JavaScript obfuscation
+-  Responsive design
+-  Docker support
 
 ---
 
-**🚍 İyi Yolculuklar!**
+** İyi Yolculuklar!**
 
